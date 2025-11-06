@@ -14,11 +14,11 @@ within a given data frame or tibble by way of a another tibble.
 
 ## Installation
 
-You can install the development version of STAT545.Assignment.Package
+You can install the in-development version of STAT545.Assignment.Package
 from [GitHub](https://github.com/) with the following command:
 
-> install_github(“<https://github.com/stat545ubc-2025/assignment-b2-mark-liu>”,
-> ref = “1.0.0”)
+> devtools::install_github(“<https://github.com/stat545ubc-2025/assignment-b2-mark-liu>”,
+> ref = “0.1.2”)
 
 ## Example
 
