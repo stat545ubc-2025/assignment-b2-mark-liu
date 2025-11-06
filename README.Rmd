@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# STAT545.Assignment.Package
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+STAT545.Assignment.Package aims to provide users with a function, the "count_all_missing_by_group" function. This function ought to return the number of missing observations with respect to under-specified groupings within a given data frame or tibble by way of a another tibble.
+
+## Installation
+
+You can install the development version of STAT545.Assignment.Package from [GitHub](https://github.com/) with the following command:
+
+> install_github("https://github.com/stat545ubc-2025/assignment-b2-mark-liu", ref = "1.0.0")
+
+## Example
+
+This is a basic example which shows how the "count_all_missing_by_group" function is intended to work:
+
+```{r example}
+library(STAT545.Assignment.Package)
+
+count_all_missing_by_group(iris)
+count_all_missing_by_group(penguins, island)
+count_all_missing_by_group(airquality, Month)
+count_all_missing_by_group(airquality, Month, .groups = "keep")
+```

@@ -40,7 +40,8 @@ a wrapper around the \code{group_by()} and
 }
 \examples{
 count_all_missing_by_group(iris)
+count_all_missing_by_group(penguins, island)
 count_all_missing_by_group(airquality, Month)
 count_all_missing_by_group(airquality, Month, .groups = "keep")
-   
+
 }
