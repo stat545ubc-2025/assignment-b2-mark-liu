@@ -1,6 +1,6 @@
 Package: STAT545.Assignment.Package
 Title: A Way to Count Number of Missing Values
-Version: 0.1.2
+Version: 1.0.0
 Authors@R: 
     person("Mark", "Liu", , "liumt1573@gmail.com", role = c("aut", "cre"))
 Description: STAT545.Assignment.Package aims to provide users with a function, the "count_all_missing_by_group" function. This function ought to return the number of missing observations with respect to under-specified groupings within a given data frame or tibble by way of a another tibble.
